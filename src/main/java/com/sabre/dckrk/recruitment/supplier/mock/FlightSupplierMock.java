@@ -2,6 +2,7 @@ package com.sabre.dckrk.recruitment.supplier.mock;
 
 import com.sabre.dckrk.recruitment.model.Flight;
 import com.sabre.dckrk.recruitment.supplier.FlightSupplier;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -9,6 +10,7 @@ import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.List;
 
+@Component
 public class FlightSupplierMock implements FlightSupplier {
 
     @Override

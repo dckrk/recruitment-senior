@@ -7,7 +7,7 @@ import com.sabre.dckrk.recruitment.model.Price;
 public interface PricesSupplier {
 
     // Unfortunately we are able to retrieve only single price for particular cabin
-    // This is how it was designed by some ...
+    // This is how it was designed
     Price retrievePricesForFlight(Flight flight, CabinClass cabinClass);
 
 }

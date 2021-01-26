@@ -5,14 +5,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class AirResource {
+public class AirController {
 
     private AirSearchService airSearchService;
 
     @Autowired
-    public AirResource(AirSearchService airSearchService) {
+    public AirController(AirSearchService airSearchService) {
         this.airSearchService = airSearchService;
     }
 
     //todo Please introduce response creator here
+
+
 }
